@@ -1,0 +1,37 @@
+.contenedor{
+	padding: 50px;
+
+}
+.calendar{
+	height: 100%;
+	width: 100%;
+}
+
+.mfp-header{
+	 border-bottom: 1px solid !important;
+    border-color: #dddddd !important;
+}
+.mfp-header-timeline {
+    background-color: white!important;
+    text-align: center;
+    padding: 20px 0px;
+}
+.mfp-timeline{
+	font-size: 12px !important;
+}
+.mfp-resource-view .mfp-header-group {
+    border-right: 1px solid !important;
+    border-color: #dfdfdf !important;
+}
+.mfp-item-container{
+	height: 50px !important;
+}
+
+.mfp-planner.business .mfp-item .mfp-resize-start, .mfp-planner.business .mfp-item .mfp-resize-end {
+    border-color: #00a7b9;
+}
+
+.mfp-item-horizontal .mfp-resize-start, .mfp-item-horizontal-detail .mfp-resize-start {
+    border-right: 1px dashed black #00a7b9;
+    margin-right: 2px;
+}

@@ -10,22 +10,22 @@
 	//Retorna la url assets
 	function media()
 	{
-		return BASE_URL."assets";
-	}
+		return BASE_URL."/assets";
+	}	
 
 /*-------  Templates/Home   -------*/
 
 	// llamado al header Home del sitio web
-	function headerHome($data="")
+	function headerAuth($data="")
 	{
-		$view_header = "views/templates/home/header.php";
+		$view_header = "views/templates/auth/header.php";
 		require_once ($view_header);
 	}
 
 	// llamado al footer Home del sitio web
-	function footerHome($data="")
+	function footerAuth($data="")
 	{
-		$view_footer = "views/templates/home/footer.php";
+		$view_footer = "views/templates/auth/footer.php";
 		require_once ($view_footer);
 	}
 
@@ -74,21 +74,6 @@
 		require_once ($view_header);
 	}
 	
-/*-------  Templates/auth  -------*/
-	// llamado al Header Authentication
-	function headerAuth($data="")
-	{
-		$view_footer = "views/templates/auth/header.php";
-		require_once ($view_footer);
-	}
-
-	// llamado al Header Authentication
-	function footerAuth($data="")
-	{
-		$view_footer = "views/templates/auth/footer.php";
-		require_once ($view_footer);
-	}
-
 /*-------  Template/sliders -------*/
 
 	// llamado slider login y register

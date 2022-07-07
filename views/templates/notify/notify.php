@@ -1,12 +1,10 @@
 
 <?php
-$nombre = $_SESSION["userData"]["nombre"];
+//$nombre = $_SESSION["userData"]["nombre"];
 if ($data['notify'] == 23) {
-    echo '<div style="width: 100%;" class="alert alert-primary alert-dismissible fade show" role="alert">
-  <strong>Bienvenido!</strong> Ahora que ya activaste tu cuenta puedes iniciar sesion.
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
+    echo '<div class="alert alert-success alert-ss" role="alert">
+ <strong>Bienvenido, </strong>activaste tu cuenta ahora ya puedes iniciar sesión.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>';
 $_SESSION['notify'] = 0;
 }
